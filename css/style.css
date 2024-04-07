@@ -36,6 +36,10 @@ header nav ul li a {
     color: beige;
     text-decoration: none;       
     }
+header nav ul li a:hover{
+    color:aqua;
+    font-size: 40px;
+}
 
 footer {
     background-color:  rgb(133, 40, 40) ; 
@@ -59,4 +63,107 @@ footer {
     text-align: center;
     }
     
+    /*RECETAS*/
+
+#contenedor-r{
+    display: grid;
+    padding-left: 70px;
+    margin: 10px;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(4,170px);
+    border: 5px solid black;
+    gap: 5px ;
+}
+
+
+.mi-receta { max-width: 100%; }
+
+.receta-1{
+    background-color:beige;
+}
+.receta-1:hover{margin: 50px;}
+.receta-2{
+    background-color: rgba(61, 54, 52, 0.61);
+    grid-column: 2/5;
+    text-align:justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: beige;
+    padding: 10px;    
+}
+.receta-3{
+    background-color: beige;
+}
+.receta-3:hover{margin: 50px;}
+
+.receta-4{
+    background-color: rgba(61, 54, 52, 0.61);
+    grid-column: 2/5;
+    text-align:justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: beige;
+    padding: 10px;
+}
+.receta-5{
+    background-color: beige;
+}
+.receta-5:hover{margin: 50px;}
+
+.receta-6{
+    background-color: rgba(61, 54, 52, 0.61);
+    grid-column: 2/5;
+    text-align:justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: beige;
+    padding: 10px;
+}
+.receta-7{
+    background-color: beige;
+    grid-column: 1/2;
+}
+.receta-7:hover{margin: 50px;}
+
+.receta-8{
+    background-color: rgba(61, 54, 52, 0.61);
+    grid-column: 2/5;
+    text-align:justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: beige;
+    padding: 10px;
+}
+
+/* GALERIA*/
+.grid-container{
+    display: grid;
+    border: 1px solid black;
+    padding: 100px;
+    grid-template-columns: 300px 300px 300px 300px ;
+    grid-template-rows: 154px 154px 154px 154px;
+    gap: 10px; 
+    }
+
+.grid-item1{
+    background-color: rgb(24, 23, 23);
+    grid-column: 1/3;
+    grid-row: 1/3;
+    }
     
+.grid-item2{
+    background-color: rgb(24, 23, 23);
+    grid-column: 3/5;
+    grid-row: 1/3;
+    }
+    
+.grid-item3{
+    background-color: rgb(24, 23, 23);
+    grid-column: 1/3;
+    grid-row: 3/5;
+    width: 50px;
+    height: 50px;
+    }
+    
+.grid-item4{
+    background-color: rgb(24, 23, 23);
+    grid-column: 3/5;
+    grid-row: 3/5;
+    }
+
